@@ -7,4 +7,9 @@
     <RootNamespace>BlindType_cs</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="NLog.Extensions.Logging" Version="5.3.11" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.11" />
+  </ItemGroup>
+
 </Project>
