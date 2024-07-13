@@ -1,5 +1,10 @@
+# hide info about logging
+Log/
+
+# remove project build info
 bin/
 obj/
 
+# remove IDE temp info
 .idea/
 .temp/
