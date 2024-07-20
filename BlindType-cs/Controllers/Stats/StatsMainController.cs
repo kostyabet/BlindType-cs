@@ -4,8 +4,7 @@ namespace BlindType_cs.Controllers.Stats;
 
 public class StatsMainController : Controller
 {
-    // GET
-    public IActionResult Index()
+    public IActionResult Stats()
     {
         return View();
     }

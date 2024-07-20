@@ -1,11 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace BlindType_cs.Controllers.Game;
+namespace BlindType_cs.Controllers.Typing;
 
-public class MainGameController : Controller
+public class TypingMainController : Controller
 {
-    // GET
-    public IActionResult Game()
+    public IActionResult Type()
     {
         return View();
     }
