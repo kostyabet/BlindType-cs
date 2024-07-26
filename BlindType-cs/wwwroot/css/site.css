@@ -1,22 +1,82 @@
-html {
-  font-size: 14px;
+a {
+  color: rgb(92, 125, 165);
+  text-decoration: none;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+.display-flex {
+  display: flex;
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+.nav-container {
+  display: flex;
+  font-size: 20px;
+  height: 50px;
+  font-family: "DIN Pro Light", sans-serif;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+.main-headline-stile {
+  font-size: 30px;
+  font-family: "DIN Pro Light", sans-serif;
+  font-weight: bold;
+  margin-left: 200px;
+  margin-top: 12px;
+  color: rgb(145, 180, 213);
+}
+
+.nav-item {
+  margin-left: 26px;
+}
+
+.nav-fields {
+  list-style-type: none;
 }
 
 body {
-  margin-bottom: 60px;
+  background-color: rgb(33, 43, 66);
+}
+
+.typing-area {
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: inherit;
+    
+  width: auto;
+  height: calc((1.75em / 2 + 2rem) * 5);
+  overflow: hidden;
+
+  margin: 80px 200px 35px;
+}
+
+.typing-text{
+  text-align: justify;
+  font-size: 2rem;
+  line-height: 1.25em;
+  color: rgb(92, 125, 165);
+  background-color: rgb(33, 43, 66);
+}
+
+.nav-link {
+  padding: 2px;
+  border-radius: 5px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+  color: rgb(145, 180, 213);
+  text-shadow: 0 0 15px rgb(92, 125, 165);
+}
+
+.navbar-shadow-line {
+  box-shadow: 0 5px 15px -7px rgba(92, 125, 165, 0.5);
+}
+
+.navbar {
+  height: 63px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }

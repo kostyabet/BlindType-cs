@@ -4,6 +4,7 @@ using NLog.Web;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
+
 // connect logging in project
 builder.Logging.ClearProviders();
 builder.WebHost.UseNLog();
